@@ -5,7 +5,7 @@ var HelloComponent = require('./hello');
 
 module.exports = ng.NgModule({
   imports: [
-    ngPlatformBrowser.BrowserModule,
+    ngPlatformBrowser.BrowserModule
   ],
   declarations: [
     HelloComponent
